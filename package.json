@@ -1,0 +1,29 @@
+{
+  "name": "griid",
+  "version": "0.0.1",
+  "description": "Simple css grid system",
+  "main": "griid.css",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint tasks",
+    "compile_css": "node tasks/compile_css.js",
+    "move_normailize_css": "node tasks/move_normalize_css.js"
+  },
+  "keywords": [
+    "grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serv/griid.git"
+  },
+  "author": "Jason Kim",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "node-sass": "^3.8.0"
+  },
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  }
+}
